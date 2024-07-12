@@ -121,6 +121,23 @@ footer {
     align-items: center;
 }
 
+#progress {
+    /* PROGRESS */
+
+width: 385px;
+height: 20px;
+
+font-family: 'Nobile';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 20px;
+text-align: center;
+
+color: #252525;
+
+}
+
 .page-link>img {
     width: 35px;
     height: 23px;
@@ -132,12 +149,14 @@ footer {
     align-items: center;
     width: 114px;
     height: 43px;
-    background-color: rgba(4, 0, 202, 15%) !important;
+    background-color: rgba(202, 63, 0, 15%) !important;
     border: none !important;
     border-radius: 100px !important;
 }
 
 .actives>img {
+    width: 22px;
+    height: 23;
     margin-left: -45%;
 }
 
@@ -148,7 +167,7 @@ footer {
     font-size: 12px;
     line-height: 11px;
     padding-left: 20%;
-    color: #5A10A4;
+    color: #CA3F00;
 }
 
 .bar-link {
