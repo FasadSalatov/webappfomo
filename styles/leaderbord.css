@@ -1,12 +1,14 @@
 html, body {
     height: 100%;
     margin: 0;
+    position: relative;
 }
 
 body {
     display: flex;
     flex-direction: column;
     font-family: 'Nobile', sans-serif;
+    position: relative;
 }
 
 .content-wrapper {
@@ -26,6 +28,7 @@ header {
 }
 
 main {
+    position: relative;
     flex: 1;
     display: flex;
     flex-flow: column;
@@ -33,6 +36,7 @@ main {
     align-items: center;
     padding: 20px;
     height: 90%;
+    z-index: -500;
 }
 
 .dropbox {
@@ -101,6 +105,7 @@ footer {
     box-shadow: 0px 4px 4px #D9D9F7;
     padding: 10px 0;
     width: 100%;
+    z-index: 550;
 }
 
 .footer-bar {
@@ -154,6 +159,95 @@ color: #252525;
     background-color: rgba(202, 63, 0, 15%) !important;
     border: none !important;
     border-radius: 100px !important;
+}
+
+.container {
+    height: 100%;
+}
+
+.nick {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+.nick>p {
+
+}
+
+#leader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+#nickname {
+    /* Jack */
+
+width: 27px;
+height: 15px;
+
+font-family: 'Nobile';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 15px;
+/* identical to box height */
+
+color: #000000;
+
+padding-left: 35%;
+
+
+}
+
+#score {
+    /* Group 2 */
+/* 455 000 */
+
+
+font-family: 'Nobile';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 20px;
+
+color: #A00000;
+
+
+}
+
+#number {
+    /* 1 */
+
+margin-left: -15% !important;
+padding-right: 40%;
+
+width: 5px;
+height: 15px;
+
+font-family: 'Nobile';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 15px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+
+#leader_avatar {
+    /* Mask group */
+
+width: 32px;
+height: 32px;
+
 }
 
 .actives>img {
