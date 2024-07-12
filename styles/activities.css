@@ -107,6 +107,15 @@ transition: 0.15s;
     padding-bottom: 150px;
 }
 
+.pg-bar {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
 main {
     position: relative;
     flex: 1;
