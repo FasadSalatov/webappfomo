@@ -32,6 +32,7 @@ main {
     justify-content: center;
     align-items: center;
     padding: 20px;
+    height: 90%;
 }
 
 .game_action {
@@ -40,7 +41,7 @@ main {
     align-items: center;
     text-align: center;
     width: 100%;
-    margin-top: 150%;
+    margin-top: 130%;
 }
 
 .progress {
