@@ -103,10 +103,6 @@ transition: 0.15s;
     transition: 0.15s;
 }
 
-.container {
-    padding-bottom: 150px;
-}
-
 main {
     position: relative;
     flex: 1;
