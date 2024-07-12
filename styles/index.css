@@ -35,6 +35,14 @@ main {
     height: 90%;
 }
 
+.icon-blocks {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 1%;
+}
+
 .pgbar {
     display: flex;
     flex-direction: row;
