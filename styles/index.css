@@ -28,6 +28,7 @@ header {
 main {
     flex: 1;
     display: flex;
+    flex-flow: column;
     justify-content: center;
     align-items: center;
     padding: 20px;
@@ -38,6 +39,11 @@ main {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    width: 100%;
+    margin-top: 150%;
+}
+
+.progress {
     width: 100%;
 }
 
@@ -52,7 +58,7 @@ main {
     font-size: 18px;
     line-height: 20px;
     color: #7A7A7A;
-    margin-top: 150%;
+    margin-top: 15%;
 }
 
 footer {
