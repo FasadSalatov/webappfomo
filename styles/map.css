@@ -103,16 +103,7 @@ transition: 0.15s;
     transition: 0.15s;
 }
 
-main {
-    position: relative;
-    flex: 1;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    height: 90%;
-    z-index: -500;
+.container {
     padding-bottom: 150px;
 }
 
@@ -230,11 +221,12 @@ color: #252525;
 
 .actives {
     display: flex !important;
-    justify-content: center;
+    justify-content: space-between;
+    align-content: space-around;
     align-items: center;
-    width: 114px;
+    width: 120px;
     height: 43px;
-    background-color: rgba(202, 63, 0, 15%) !important;
+    background-color: rgba(0,102,255, 15%) !important;
     border: none !important;
     border-radius: 100px !important;
 }
@@ -242,17 +234,16 @@ color: #252525;
 .actives>img {
     width: 22px;
     height: 23;
-    margin-left: -45%;
 }
 
 .actives>p {
-    width: 29px;
+    width: 90px;
     height: 11px;
     font-weight: 500;
     font-size: 12px;
     line-height: 11px;
-    padding-left: 20%;
-    color: #CA3F00;
+    color: #003C95;
+    padding-left: 15%;
 }
 
 .bar-link {
