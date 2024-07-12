@@ -35,6 +35,17 @@ main {
     height: 90%;
 }
 
+.dropbox {
+    /* About project */
+
+font-family: 'Nobile';
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 11px;
+
+}
+
 .icon-blocks {
     display: flex;
     flex-flow: row;
