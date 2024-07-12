@@ -1,151 +1,123 @@
-main, body, html {
-    height: 103%;
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Nobile', sans-serif;
+}
+
+.content-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 30px;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.game_action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#btn_action {
+    width: 80%;
+    height: 50px;
+    border: none;
+    background: #D4D4D4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: #7A7A7A;
+    margin-top: 20px;
+}
+
+footer {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px #D9D9F7;
+    padding: 10px 0;
+}
+
+.footer-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 64px;
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #D9D9F7;
+    border-radius: 13px;
 }
 
 .page-link {
     display: flex !important;
     flex-direction: row !important;
+    align-items: center;
 }
-
-
-
 
 .page-link>img {
     width: 35px;
     height: 23px;
-
 }
-body {
-    display: flex;
-    justify-content: center;
-    flex-direction: column-reverse;
-    overflow-y: hidden;
-}
-
-.game_action {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-#btn_action {
-    /* Btn game */
-
-/* Auto layout */
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-
-width: 80%;
-
-margin-top: 100%;
-height: 50px;
-border: none;
-color: #666666;
-background: #D4D4D4;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 10px;
-/* Perform activities to unlock */
-
-/* Game */
-
-
-font-family: 'Nobile';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 20px;
-
-color: #7A7A7A;
-
-}
-.p_action {
-    display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-
-}
-
-header {
-
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-padding: 5px 30px;
-
-width: 100%;
-height: fit-content;
-
-background: #FFFFFF;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
-/* Inside auto layout */
-flex: none;
-order: 1;
-align-self: stretch;
-flex-grow: 0;
-
-}
-
 
 .actives {
     display: flex !important;
     justify-content: center;
-    align-content: center;
     align-items: center;
-    
     width: 114px;
     height: 43px;
     background-color: rgba(4, 0, 202, 15%) !important;
     border: none !important;
+    border-radius: 100px !important;
 }
 
 .actives>img {
     margin-left: -45%;
 }
 
-.active {
-    margin-left: 2%;
-}
-
 .actives>p {
-    /* Fomo */
-align-self: center;
-width: 29px;
-height: 11px;
-
-font-family: 'Nobile';
-font-style: normal;
-font-weight: 500;
-font-size: 12px;
-line-height: 11px;
-padding-left: 20%;
-
-
-color: #5A10A4;
-
-
+    width: 29px;
+    height: 11px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 11px;
+    padding-left: 20%;
+    color: #5A10A4;
 }
 
 .bar-link {
-
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: 5px;
-gap: 10px;
-
-margin: 0 auto;
-width: 50px;
-height: 30px;
-
-border-radius: 5px;
-
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    gap: 10px;
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
 }
 
 .bar-link>img {
@@ -153,37 +125,6 @@ border-radius: 5px;
     height: 22px;
 }
 
-
-
 p {
-    margin: 0 0 0 0 !important;
-}
-
-.actives {
-    border-radius: 100px !important;
-}
-
-.footer-bar {
-    /* Bottom bar */
-
-/* Auto layout */
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-
-
-height: 64px;
-width: 90%;
-
-background: #FFFFFF;
-border: 1px solid #D9D9F7;
-box-shadow: 0px 4px 4px #D9D9F7;
-border-radius: 13px;
-margin-top: -15% !important;
-
-}
-
-.navibari {
-    padding-bottom: 35%;
+    margin: 0 !important;
 }
