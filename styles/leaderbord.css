@@ -39,6 +39,8 @@ main {
     z-index: -500;
 }
 
+
+
 .dropbox {
     /* About project */
 
@@ -101,11 +103,14 @@ line-height: 11px;
 
 footer {
     flex-shrink: 0;
-    background: #FFFFFF;
+    background: #ffffff00;
     box-shadow: 0px 4px 4px #D9D9F7;
     padding: 10px 0;
     width: 100%;
     z-index: 550;
+    position: fixed; /* Keep footer fixed at the bottom */
+    bottom: 0; /* Align it to the bottom */
+    transition: transform 0.3s ease; /* Smooth transition for hiding/showing */
 }
 
 .footer-bar {
@@ -171,18 +176,13 @@ color: #252525;
     align-items: center;
 }
 
-
-
-.nick>p {
-
-}
-
 #leader {
     display: flex;
     flex-direction: row;
     align-items: center;
     align-content: center;
     justify-content: space-between;
+    margin-top: 5%;
 }
 
 #nickname {
