@@ -35,6 +35,19 @@ main {
     height: 90%;
 }
 
+.pgbar {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    position: relative;
+    z-index: 1;
+}
+
+.kenny {
+    position: relative;
+    z-index: 1001;
+}
+
 .game_action {
     display: flex;
     flex-direction: column;
